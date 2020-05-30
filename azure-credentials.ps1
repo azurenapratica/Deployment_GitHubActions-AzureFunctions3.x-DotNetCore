@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name "GroffeAzFuncGitHubActions" --role contributor --scopes /subscriptions/<SUBSCRIPTION>/resourceGroups/<GRUPO DE RECURSOS>/providers/Microsoft.Web/sites/<FUNCTION APP> --sdk-auth
